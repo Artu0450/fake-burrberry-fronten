@@ -1,0 +1,57 @@
+.product-page-mobile {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 320px;
+
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  height:
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background: #c6c6c6;
+}
+
+.item-name-container{
+  width: 100%;
+  height: 82px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.item-name{
+  font-family: Lora;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: #171717;
+}
+.item-meta-container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item-price{
+  margin-left: 16px;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: left;
+  color: #171717;
+
+}
+.item-id{
+  margin-right: 16px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #171717;
+}
