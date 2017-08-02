@@ -15,11 +15,18 @@
 }
 
 .line {
+
   width: 100%;
   height: 1px;
   background: #c6c6c6;
 }
-
+.line2 {
+  margin-top: 32px;
+  margin-left: 16px;
+  width: 288px;
+  height: 1px;
+  background: #c6c6c6;
+}
 .item-name-container {
   width: 100%;
   height: 82px;
@@ -40,6 +47,7 @@
 }
 
 .item-price {
+  font-weight: 100;
   margin-left: 16px;
   font-family: Raleway;
   font-size: 16px;
