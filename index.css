@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   width: 320px;
 
+
 }
 .logo-container {
   display: flex;
@@ -22,6 +23,13 @@
   width: 288px;
   height: 1px;
   background: #c6c6c6;
+}
+.line3 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 1px;
+  background: #c6c6c6;
+
 }
 .item-name-container {
   height: 82px;
@@ -86,10 +94,12 @@
   border: solid 1px #232122;
 }
 
+.item-menu-button-container {
+  margin-bottom: 48px;
+}
 .select-size-button,
 .find-store-button,
-.help-size-button
- {
+.help-size-button {
   margin-left: 16px;
 }
 .select-size-button {
@@ -127,6 +137,36 @@
   font-family: Raleway;
   font-size: 12px;
   line-height: 1.33;
+  text-align: left;
+  color: #171717;
+}
+.item-description-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: 16px;
+
+}
+.item-description-combobox {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  color: #171717;
+}
+.triangle-button-image {
+  margin-right: 16px;
+}
+.item-description-text-container {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.item-description-text {
+  font-family: Lora;
+  font-size: 14px;
+  line-height: 1.71;
   text-align: left;
   color: #171717;
 }
