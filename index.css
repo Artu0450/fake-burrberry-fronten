@@ -1,6 +1,6 @@
 .product-page-mobile {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   width: 320px;
 
@@ -10,13 +10,9 @@
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 16px;
-  width: 100%;
-  height:
 }
 
 .line {
-
-  width: 100%;
   height: 1px;
   background: #c6c6c6;
 }
@@ -28,7 +24,6 @@
   background: #c6c6c6;
 }
 .item-name-container {
-  width: 100%;
   height: 82px;
   margin-left: 16px;
   margin-right: 16px;
@@ -43,7 +38,6 @@
 .item-meta-container {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
 
 .item-price {
@@ -72,10 +66,9 @@
 }
 .item-colour-text-container {
   margin-left: 16px;
-  width: 100%;
 }
-.item-colour-button-container .item-colour-button-honey,
-.item-colour-button-container .item-colour-button-black {
+.item-colour-button-honey,
+.item-colour-button-black {
   margin-left: 16px;
 }
 .item-colour-button-black {
@@ -93,12 +86,47 @@
   border: solid 1px #232122;
 }
 
-.size-select-button-container {
-  margin-top: 32px;
+.select-size-button,
+.find-store-button,
+.help-size-button
+ {
   margin-left: 16px;
+}
+.select-size-button {
+  margin-top: 32px;
   width: 288px;
   height: 48px;
   border-radius: 2px;
   background-color: #171717;
   border: solid 1px #171717;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #ffffff;
+  text-align: center;
+}
+.find-store-button {
+  background: white;
+  margin-top: 16px;
+  width: 288px;
+  height: 48px;
+  border-radius: 2px;
+  border: solid 1px #999999;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: #171717;
+  text-align: center;
+}
+.help-size-button {
+  height: 16px;
+  background: white;
+  border: white;
+  margin-top: 24px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: #171717;
 }
