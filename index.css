@@ -109,11 +109,13 @@
   border-radius: 2px;
   background-color: #171717;
   border: solid 1px #171717;
+}
+.select-size-button-text {
   font-family: Raleway;
   font-size: 12px;
   line-height: 1.33;
-  color: #ffffff;
   text-align: center;
+  color: #ffffff;
 }
 .find-store-button {
   background: white;
@@ -122,18 +124,21 @@
   height: 48px;
   border-radius: 2px;
   border: solid 1px #999999;
+}
+.find-store-button-text {
   font-family: Raleway;
   font-size: 12px;
   line-height: 1.33;
-  text-align: left;
-  color: #171717;
   text-align: center;
+  color: #171717;
 }
 .help-size-button {
   height: 16px;
   background: white;
   border: white;
   margin-top: 24px;
+}
+.help-size-button-text {
   font-family: Raleway;
   font-size: 12px;
   line-height: 1.33;
