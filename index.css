@@ -1,0 +1,361 @@
+.product-page-mobile {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 320px;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.line {
+  height: 1px;
+  background: #c6c6c6;
+}
+.line2 {
+  margin-top: 32px;
+  margin-left: 16px;
+  width: 288px;
+  height: 1px;
+  background: #c6c6c6;
+}
+.line3 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  height: 1px;
+  background: #c6c6c6;
+
+}
+.line4 {
+  margin-top: 32px;
+  margin-bottom: 48px;
+  height: 1px;
+  background: #c6c6c6;
+}
+.line5 {
+
+  width: 135px;;
+  height: 1px;
+  background: #c6c6c6;
+  margin-left: 16px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+.line6 {
+  width: 120px;;
+  height: 1px;
+  background: #c6c6c6;
+  margin-left: 16px;
+  margin-top: 8px;;
+  margin-bottom: 8px;
+}
+.item-name-container {
+  height: 82px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.item-name {
+  font-family: Lora;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  color: #171717;
+}
+.item-meta-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-price {
+  font-weight: 100;
+  margin-left: 16px;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: left;
+  color: #171717;
+
+}
+.item-id {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #171717;
+  margin-right: 16px;
+}
+.item-colour-text {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: #171717;
+}
+.item-colour-text-container {
+  margin-left: 16px;
+}
+.item-colour-button-honey,
+.item-colour-button-black {
+  margin-left: 16px;
+}
+.item-colour-button-black {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #000000;
+  border: solid 1px #000000
+}
+.item-colour-button-honey {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #cfa880;
+  border: solid 1px #232122;
+}
+
+.item-menu-button-container {
+  margin-bottom: 48px;
+}
+.select-size-button,
+.find-store-button,
+.help-size-button {
+  margin-left: 16px;
+}
+.select-size-button {
+  margin-top: 32px;
+  width: 288px;
+  height: 48px;
+  border-radius: 2px;
+  background-color: #171717;
+  border: solid 1px #171717;
+}
+.select-size-button-text {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #ffffff;
+}
+.find-store-button {
+  background: white;
+  margin-top: 16px;
+  width: 288px;
+  height: 48px;
+  border-radius: 2px;
+  border: solid 1px #999999;
+}
+.find-store-button-text {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: center;
+  color: #171717;
+}
+.help-size-button {
+  height: 16px;
+  background: white;
+  border: white;
+  margin-top: 24px;
+}
+.help-size-button-text {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: #171717;
+}
+.item-description-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-left: 16px;
+
+}
+.item-description-combobox {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: left;
+  color: #171717;
+}
+.triangle-button-image {
+  margin-right: 16px;
+}
+.item-description-text-container {
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.item-description-text {
+  font-family: Lora;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #171717;
+}
+.recommended-item-container {
+  margin-left: 16px;
+}
+.recommended-item-text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.shipping-return-container {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.shipping-return-text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.recommended-item-pool-container {
+  display: flex;
+}
+.recommended-item-pool-container2 {
+  display: flex;
+}
+.recommended-item-pool-name-container {
+  display: flex;
+
+}
+.recommended-item-pool-name-container2 {
+text-align: left;
+}
+.first-recommended-item-image {
+  width: 130px;
+  margin-left: 16px;
+  margin-right: 28px;
+}
+.second-recommended-item-image {
+  width: 130px;
+  margin-right: 16px;
+}
+.third-recommended-item-image {
+  width: 130px;
+  margin-top: 32px;
+  margin-left: 16px;
+  margin-right: 28px;
+}
+.fourth-recommended-item-image {
+  width: 130px;
+  margin-top: 32px;
+  margin-right: 16px;
+}
+.first-recommended-item-name {
+  margin-left: 16px;
+  font-family: Lora;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #171717;
+}
+.second-recommended-item-name {
+  margin-right: 16px;
+  font-family: Lora;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #171717;
+}
+.first-recommended-item-price{
+  margin-left: 17px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #999999;
+}
+.second-recommended-item-price {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #999999;
+}
+.third-recommended-item-name {
+  margin-left: 16px;
+  font-family: Lora;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #171717;
+}
+.third-recommended-item-price {
+  margin-left: 17px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #999999;
+}
+.fourth-recommended-item-name {
+  margin-right: 16px;
+  font-family: Lora;
+  font-size: 16px;
+  line-height: 1.19;
+  color: #171717;
+}
+.fourth-recommended-item-price {
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: left;
+  color: #999999;
+}
+.more-options-container {
+  display: flex;
+  flex-direction: column;
+}
+.more-text-element {
+  margin-left: 16px;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+  text-align: left;
+  color: #171717;
+}
+.more-clickable-link {
+  font-family: Lora;
+ font-size: 14px;
+ font-style: italic;
+ line-height: 1.21;
+ text-align: left;
+ color: #171717;
+}
+.more-clickable-link {
+  margin-left: 16px;
+  margin-top: 16px;
+  font-family: Lora;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.21;
+  text-align: left;
+  color: #171717;
+}
+.information-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 64px;
+  background: #ffffff;;
+}
+.information-shipping-button {
+  margin-left: 16px;
+  width: 205px;
+  height: 16px;
+  font-family: Raleway;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  background: white;
+  border: white;
+  color: #999999;
+}
