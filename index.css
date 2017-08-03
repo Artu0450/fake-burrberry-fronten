@@ -211,3 +211,7 @@
   font-weight: 500;
   line-height: 1.25;
 }
+.recommended-item-pool-container {
+  display: flex;
+  flex-direction: column;
+}
