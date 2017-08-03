@@ -31,6 +31,20 @@
   background: #c6c6c6;
 
 }
+.line4 {
+  margin-top: 32px;
+  margin-bottom: 48px;
+  height: 1px;
+  background: #c6c6c6;
+}
+.line5 {
+  margin-left: 16px;
+  width: 135px;;
+  height: 1px;
+  background: #c6c6c6;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
 .item-name-container {
   height: 82px;
   margin-left: 16px;
@@ -174,4 +188,26 @@
   line-height: 1.71;
   text-align: left;
   color: #171717;
+}
+.recommended-item-container {
+  margin-left: 16px;
+}
+.recommended-item-text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+}
+
+.shipping-return-container {
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.shipping-return-text {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
 }
